@@ -5,7 +5,7 @@ const cors = require('cors');
 const Moralis = require('@moralisweb3/evm-api');
 const { ethers } = require('ethers');
 const WebSocket = require('ws');
-
+//TEST
 const app = express();
 
 // Event ABIs for decoding
@@ -331,8 +331,8 @@ const streamConfig = {
   ],
   // Add your contract addresses here
   contractAddresses: [
-    '0xE64Ea2215CD88a5d3cfe764bCEB2c1e3C60ECfC4',
-    '0x99A8374c5cf5E45151102F367ada3B47F636951c'
+    '0xd5aaB1E5F25de9adDd0cb06a5a17172CB3C976Db',
+    '0x9a6CCF1A797F66eCCB2d5833591d30cC6Bc65Ccf'
   ]
 };
 
