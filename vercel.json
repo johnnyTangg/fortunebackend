@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "MORALIS_API_KEY": "@moralis_api_key",
+    "ERC721_CONTRACT_ADDRESS": "@erc721_contract_address",
+    "ERC404_CONTRACT_ADDRESS": "@erc404_contract_address"
+  }
+} 
